@@ -20,7 +20,8 @@ namespace LetsDotNet
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseKestrel(options => options.Listen(System.Net.IPAddress.Any, port: 80));
+                    webBuilder.UseKestrel(options =>
+                    { options.Listen(System.Net.IPAddress.Any, port: 80); });
                     webBuilder.UseStartup<Startup>();
                 });
     }

@@ -2,17 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Configurations>Debug;Release;DeployToEc2</Configurations>
+    <Configurations>DeployToEc2;Debug;Release</Configurations>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DeployToEc2|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
     <DebugType></DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\DeployToEc2</OutputPath>
+    <OutputPath>bin\DeployToEc2\netcoreapp3.1</OutputPath>
     <DefineConstants></DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <IntermediateOutputPath>obj\DeployToEc2</IntermediateOutputPath>
+    <IntermediateOutputPath>obj\DeployToEc2\netcoreapp3.1</IntermediateOutputPath>
     <NoWarn></NoWarn>
     <NoStdLib>true</NoStdLib>
     <CustomCommands>

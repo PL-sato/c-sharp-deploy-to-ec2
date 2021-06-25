@@ -34,3 +34,5 @@
 /Users/satouyuuki/Practice/c#/practices/LetsDotNet/LetsDotNet/obj/Debug/netcoreapp3.1/LetsDotNet.pdb
 /Users/satouyuuki/Practice/c#/practices/LetsDotNet/LetsDotNet/obj/Debug/netcoreapp3.1/LetsDotNet.genruntimeconfig.cache
 /Users/satouyuuki/Practice/c#/practices/LetsDotNet/LetsDotNet/obj/Debug/netcoreapp3.1/LetsDotNet.csproj.CopyComplete
+/Users/satouyuuki/Practice/c#/practices/LetsDotNet/LetsDotNet/bin/Debug/netcoreapp3.1/web.config
+/Users/satouyuuki/Practice/c#/practices/LetsDotNet/LetsDotNet/bin/Debug/netcoreapp3.1/mono_crash.11a67480d0.0.json
